@@ -1,1 +1,1 @@
-# LTTC
+# Stock Price Prediction Project
