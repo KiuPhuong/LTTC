@@ -48,12 +48,12 @@ def main():
     print("FINAL RESULTS")
     print("="*80)
     for name, result in results.items():
-        print(f"\n📌 {name}")
+        print(f"\n {name}")
         print("-"*50)
         for key, value in result['metrics'].items():
             print(f"{key}: {value:.2f}")
     
-    print("\n✅ Done!")
+    print("\n Done!")
 
 if __name__ == "__main__":
     main()
